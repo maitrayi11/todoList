@@ -1,0 +1,90 @@
+#navigationBar{
+    overflow: hidden;
+    background-color: teal;
+}
+#pageTitle{
+    float: left;
+    font-size: 30px;
+    color: skyblue;
+    padding: 18px 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+#searchBar{
+    float: right;
+    padding: 18px 20px;
+    display: block;
+}
+#searchBox{
+    height: 28px;
+    width: 230px;
+    border: 1px solid skyblue;
+    
+}
+#searchBtn{
+    height: 36px;
+    width: 90px;
+    border-radius: 8px;
+    border:1.5px solid skyblue;
+    color: skyblue;
+    background-color: teal;
+}
+#addNotes{
+    text-align: center; 
+    border:1px solid darkslategray;
+    width: 1000px;
+    margin-left: 230px;
+}
+#textBar{
+    border: 3px  solid   darkslategray;
+    border-radius: 4px;
+    height: 170px;
+    width: 900px;
+    text-align: center;
+    font-size: 30px;
+    color: darkslategray;
+    line-height: 40px;
+}
+#addBtn{
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    border-radius: 8px;
+    border:2px solid rgb(52, 144, 180);
+    color: skyblue;
+    background-color: teal;
+    margin-top: 5px;
+    margin-bottom: 3px;;
+}
+#findNotes{
+    margin-left: 230px;
+    width: 1000px;
+    color: teal;
+}
+.column {
+   float: left;
+    height: 200px;
+    width: 270px;
+    border: 2px solid teal;
+    margin: 2%;
+    background-color: white;
+    position: relative;
+    font-weight: bolders;
+    font-size: 30px;
+  }
+.delBtn{
+    position: absolute;
+   bottom: 8px;
+   right: 7px;
+  border: none;
+
+   color: teal;
+ font-size: 20px;;
+}
+.para{
+    font-size: 10px;
+    color: darkslategray;
+    position: relative;
+    margin-top: 0mm;
+}
