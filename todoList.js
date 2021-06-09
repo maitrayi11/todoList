@@ -3,7 +3,6 @@ let addBtn = document.getElementById("addBtn");
 addBtn.addEventListener('click',function(e){
     let textBar = document.getElementById("textBar");
     let notes = window.localStorage.getItem("findNotes");
-    console.log(notes);
     if(notes == null)
     {
         notesObj = [];
@@ -15,7 +14,6 @@ addBtn.addEventListener('click',function(e){
     notesObj.push(textBar.value);
     window.localStorage.setItem("findNotes",JSON.stringify(notesObj));
     textBar.value = "";
-    console.log(notesObj);
     showNotes();
 });
 
@@ -49,7 +47,7 @@ function showNotes()
 }
 
 function deleteNote(index) {
-    console.log("I am deleting",index);
+
     let notes =localStorage.getItem("findNotes");
     if(notes == null)
     {
@@ -67,7 +65,6 @@ function deleteNote(index) {
 let searchBox = document.getElementById("searchBox");
 
 searchBox.addEventListener('input',function(){
-    console.log("input listner fired");
     let inpVal = searchBox.value;
     let row = document.getElementsByClassName('row'); 
 
