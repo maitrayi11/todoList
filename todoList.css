@@ -55,7 +55,8 @@
     color: skyblue;
     background-color: teal;
     margin-top: 5px;
-    margin-bottom: 3px;;
+    margin-bottom: 3px;
+    cursor: cell;
 }
 #findNotes{
     margin-left: 230px;
@@ -78,13 +79,25 @@
    bottom: 8px;
    right: 7px;
   border: none;
-
+    background-color: white;
    color: teal;
- font-size: 20px;;
+ font-size: 20px;
+ cursor: grab;
 }
 .para{
     font-size: 10px;
     color: darkslategray;
     position: relative;
     margin-top: 0mm;
+}
+.colorPallet{
+    position: absolute;
+    bottom: 4px;
+    right: 32px ;
+    color: rgb(162, 224, 61);
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    cursor: grab;
+
 }
